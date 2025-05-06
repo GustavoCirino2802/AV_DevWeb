@@ -1,0 +1,18 @@
+@url_base = http://localhost:5204/api/eventos
+
+### Cadastrar Eventos
+POST {{url_base}}/cadastrar
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJoZXJvcyIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMiIsImV4cCI6MTc0NjQ5MjY5OX0.MT29y6ey-mEIybxbyLxY8zlrcWWl7Cx_nkynINdLiiU
+Content-Type: application/json
+
+{
+    "nome" : "Natacao",
+    "local" : "casa"
+}
+
+### Listar Eventos
+GET {{url_base}}/listar
+
+### Listar Eventos por ID
+GET {{url_base}}/usuario
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJoZXJvcyIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMiIsImV4cCI6MTc0NjQ5MjY5OX0.MT29y6ey-mEIybxbyLxY8zlrcWWl7Cx_nkynINdLiiU
